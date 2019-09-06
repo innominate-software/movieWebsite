@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/* ============= clean and modern =============== */
+
+.dark-green {
+    background: #17252a;
+}
+
+.medium-green {
+    background: #2b7a78;
+}
+
+.green {
+    background: #3aafa9;
+}
+
+.light-green {
+    background: #def2f1;
+}
+
+.white {
+    background: #feffff;
+}
+
+/* ============================== */
+
+.nav-link {
+    letter-spacing: 3px;
+    transition: 300ms;
+    color: #feffff !important;
+}
+
+.nav-link:hover {
+    transition: 300ms;
+    color: #17252a !important;
+}
